@@ -1,14 +1,14 @@
 #!/bin/bash
 
 if [ -f ember-cli-build.js ]; then
-  ember s
+  ember s $*
 elif [ -f Gemfile ]; then
   if  grep --quiet middleman Gemfile; then
-    middleman s
+    middleman s $*
   else
-    rails s
+    rails s $*
   fi
-else 
+else
   echo "Don't know what server to start. :("
   exit 1
 fi
