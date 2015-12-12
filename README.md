@@ -7,6 +7,7 @@ It currently should work with:
 - Rails
 - Ember
 - Middleman
+- Phoenix
 
 ## Installation
 
