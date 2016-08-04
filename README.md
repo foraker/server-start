@@ -8,6 +8,7 @@ It currently should work with:
 - Ember
 - Middleman
 - Phoenix
+- Ionic
 
 ## Installation
 
